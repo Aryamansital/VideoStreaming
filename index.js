@@ -6,7 +6,7 @@ import {extractRangeFromHeader} from './extract-range-from-header.js';
 import {VIDEO_CHUNK_BYTE_SIZE} from './constants.js';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3030;
 
 // FIXME Do not hardcode video source.
 const videoPath = path.join(path.resolve(), 'videos', 'I’m Your Treasure Box.mp4');
