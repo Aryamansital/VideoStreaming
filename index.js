@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3030;
 
 // FIXME Do not hardcode video source.
-const videoPath = path.join(path.resolve(), 'videos', 'I’m Your Treasure Box.mp4');
+const videoPath = path.join(path.resolve(), 'videos', 'KOHAKU.mp4');
 const videoSize = fs.statSync(videoPath).size;
 
 app.use(express.static('./'));
