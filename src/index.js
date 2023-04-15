@@ -12,7 +12,7 @@ const port = 3000;
 const videoPath = path.join(path.resolve(), 'videos', 'I’m Your Treasure Box.mp4');
 const videoSize = fs.statSync(videoPath).size;
 
-app.use(express.static('public'));
+app.use(express.static('./'));
 
 app.get('/video', (req, res) => {
     const rangeHeader = req.headers.range;
