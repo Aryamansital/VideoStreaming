@@ -1,3 +1,5 @@
 # VideoStreaming
 
-Video streaming website with Nodejs server
+Video streaming course project with Nodejs server built for CSE2029 Computer Organization and Architecture
+
+Site deployed at https://marinetreasurebox.onrender.com
