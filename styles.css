@@ -16,3 +16,9 @@ main {
     text-align: center;
     width: 64%;
 }
+.tabs{
+    margin-top: 5vw;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
